@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Teams</h1>
+            <a href="#" id="add">+</a>
+        </header>
+        
+
+
+        <div id="teams-list"></div>
+
+
+        <div id="add-team" class="dialog transparent">
+            <span class="close">&times;</span>
+            <h3>Add Team</h3>
+            <form id="team-form" method="post">
+                <p>
+                    <input type="text" id="name" placeholder="Team Name" required>
+                </p>
+                <p>
+                    <input type="text" id="qb" placeholder="Quarterback Name" required>
+                </p>
+                <p>
+                    <input type="text" id="rb" placeholder="Runningback Name" required>
+                </p>
+                <p>
+                    <input type="text" id="wr1" placeholder="Wide Reciver 1 Name" required>
+                </p>
+                <p>
+                    <input type="text" id="wr2" placeholder="Wide Reciver 2 Name" required>
+                </p>
+                <p>
+                    <input type="text" id="wr3" placeholder="Wide Reciver 3 Name" required>
+                </p>
+                
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+                
+            </form>
+        </div>
+    </body>
+</html>
